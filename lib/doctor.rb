@@ -20,7 +20,6 @@ class Doctor
 
   def new_appointment(patient, date)
     Appointment.new(date, self, patient)
-    binding.pry
   end
   
   def patients
